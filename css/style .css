@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #497DAC;
+}
+
+.header .container {
+	height: 150px;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.header .left_heading {
+	height: 100%;
+	width: 80%;
+	float: left;
+
+}
+
+.left_heading h1 {
+	color: white;
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-size: 28px;
+	font-family: sans-serif;
+}
+
+.header .menu {
+	height: 100%;
+	width: 20%;
+	float: right;
+
+}
+
+.header .menu ul {
+	list-style-type: none;
+
+}
+
+.header .menu ul li {
+
+	padding-top: 6px;
+
+}
+
+.header .menu ul li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+
+.header .menu ul li span {
+	color: #9EC0DD;
+}
+
+
+.menu ul li a:hover {
+	color: darkgray;
+	transition: all linear .2s;
+}
+
+.all_body .container {
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.all_body .summary h2 {
+	text-transform: capitalize;
+	font-family: sans-serif;
+	margin-top: 10px;
+	border-bottom: 2px solid gray;
+}
+
+.all_body .summary p {
+	text-align: justify;
+	font-family: monospace;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.all_body .skill h2 {
+	text-transform: capitalize;
+	font-family: sans-serif;
+	margin-top: 15px;
+	border-bottom: 2px solid gray;
+}
+
+.all_body .skill p {
+	text-align: justify;
+	font-family: monospace;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+
+.list {
+	width: 100%;
+	background-color: brown;
+}
+
+.all_body .list .list_one {
+	width: 60%;
+	float: left;
+
+}
+
+.all_body .list_one ul li {
+	text-transform: capitalize;
+	list-style-type: disc;
+	list-style-position: inside;
+	font-family: monospace;
+	margin-top: 5px;
+	margin-left: 25px;
+	font-size: 15px;
+}
+
+.all_body .list_two {
+	width: 40%;
+	float: left;
+
+
+
+}
+
+.all_body .list_two ul li {
+	text-transform: capitalize;
+	list-style-type: disc;
+	list-style-position: inside;
+	font-family: monospace;
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.all_body .experience h2 {
+	text-transform: capitalize;
+	font-family: sans-serif;
+
+	border-bottom: 2px solid gray;
+	margin-top: 80px;
+
+}
+
+.all_body .experience p {
+	text-transform: capitalize;
+	font-family: monospace;
+	font-size: 15px;
+
+}
+
+.all_body .details ul li {
+	text-transform: capitalize;
+	list-style-type: disc;
+	list-style-position: inside;
+	font-family: monospace;
+	margin-left: 25px;
+	font-size: 15px;
+}
+
+.all_body .education h2 {
+	text-transform: capitalize;
+	font-family: sans-serif;
+	margin-top: 15px;
+	border-bottom: 2px solid gray;
+}
+
+.all_body .education p {
+	text-align: justify;
+	font-family: monospace;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.all_body .language h2 {
+	text-transform: capitalize;
+	font-family: sans-serif;
+	margin-top: 15px;
+	border-bottom: 2px solid gray;
+}
+
+.all_body .language p {
+	font-family: monospace;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.all_body .certificate h2 {
+	text-transform: capitalize;
+	font-family: sans-serif;
+	margin-top: 15px;
+	border-bottom: 2px solid gray;
+}
+
+.all_body .certificate p {
+	font-family: monospace;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: #497DAC;
+	margin-top: 15px;
+}
